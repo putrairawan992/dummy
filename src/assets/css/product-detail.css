@@ -1,0 +1,42 @@
+div>input+img {
+  /* IMAGE STYLES */
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+div>input:select+img {
+  /* (RADIO CHECKED) IMAGE STYLES */
+  border: 2px solid rgb(217, 255, 0);
+}
+
+.box-image {
+  height: 40px;
+  border: 1px solid #DCDCDC;
+  font-size: 12px;
+  padding: 0px 10px;
+  float: left;
+}
+
+.radio-tile-content {
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box-image:select+img {
+  /* target next sibling (+) label */
+  background-color: blue;
+}
+
+.box-image.tes.active {
+  opacity: 0.2;
+}
+
+img.radio-content-image {
+  width: 36px;
+  height: 30px;
+}

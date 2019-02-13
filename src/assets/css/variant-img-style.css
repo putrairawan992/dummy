@@ -1,0 +1,6 @@
+ul{list-style:none;margin:0;padding:0}
+ul.swatch-colors li{float:left;margin:5px;padding:0;width:42px;height:42px}
+.swatch-colors  li .swatch-img{cursor:pointer;display:block}
+label.lbswatches > input{visibility:hidden;position: absolute;}
+label.lbswatches > input + img{cursor:pointer;border:2px solid transparent;}
+label.lbswatches > input:checked + img{border:2px solid #f00;}
